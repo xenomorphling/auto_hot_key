@@ -11,6 +11,7 @@ CapsLock & Up::Send, {Blind}{PgUp}
 CapsLock & Down::Send, {Blind}{PgDn}
 CapsLock & Alt::capslock
 CapsLock & `;::Send, {Blind}{Enter}
+CapsLock & P::Send, {Blind}{Escape}
 
 
 Pause::SendInput, {ScrollLock}
