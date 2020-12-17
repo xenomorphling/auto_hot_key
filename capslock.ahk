@@ -18,14 +18,15 @@ CapsLock & ,::Send, {Blind}{=}
 CapsLock & [::Send, {Blind}{_}
 CapsLock & .::Send, {Blind}{(}
 CapsLock & /::Send, {Blind}{)}
-
-CapsLock & e::MouseMove, 0, -20, 0, R
-CapsLock & d::MouseMove, 0, 20, 0, R
-CapsLock & s::MouseMove, -20, 0, 0, R
-CapsLock & f::MouseMove, 20, 0, 0, R
-CapsLock & Space::MouseClick, left
-CapsLock & g::MouseClick, Right
 CapsLock & LAlt::Send, {Blind}{CapsLock}
+
+; CapsLock & e::MouseMove, 0, -20, 0, R
+; CapsLock & d::MouseMove, 0, 20, 0, R
+; CapsLock & s::MouseMove, -20, 0, 0, R
+; CapsLock & f::MouseMove, 20, 0, 0, R
+; CapsLock & Space::MouseClick, left
+; CapsLoc k & g::MouseClick, Right
+
 
 RAlt & a::Send {!}
 RAlt & s::Send {@}
