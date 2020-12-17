@@ -5,7 +5,6 @@ CapsLock & k::Send, {blind}{Down}
 CapsLock & i::Send, {blind}{Up}
 CapsLock & l::Send, {blind}{Right}
 CapsLock & `;::Send, {blind}{Enter}
-; CapsLock & `'::Send, {Blind}{Enter}
 CapsLock & h::Send, {blind}{Backspace}
 CapsLock & u::Send, {Blind}{Home}
 CapsLock & o::Send, {Blind}{End}
@@ -25,7 +24,7 @@ CapsLock & LAlt::Send, {Blind}{CapsLock}
 ; CapsLock & s::MouseMove, -20, 0, 0, R
 ; CapsLock & f::MouseMove, 20, 0, 0, R
 ; CapsLock & Space::MouseClick, left
-; CapsLoc k & g::MouseClick, Right
+; CapsLock & g::MouseClick, Right
 
 
 RAlt & a::Send {!}
